@@ -1,0 +1,11 @@
+[package]
+name = "grpc-rs-example"
+version = "0.1.0"
+authors = ["knightmare <knightmare@okdba.com>"]
+
+[dependencies]
+futures = "^0.1.15"
+protobuf = { version = "1.2", optional = true }
+log = "0.3"
+grpcio = "*"
+hello-proto = {path = "proto"}

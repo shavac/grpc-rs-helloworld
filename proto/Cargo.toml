@@ -1,0 +1,11 @@
+[package]
+name = "hello-proto"
+version = "0.1.2"
+
+[dependencies]
+protobuf = "1.2"
+futures = "0.1"
+grpcio = "*"
+
+[build-dependencies]
+protobuf = "*"
